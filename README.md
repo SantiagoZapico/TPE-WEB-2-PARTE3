@@ -2,7 +2,7 @@
 
 ### - Descripción
 
-Esta es una API RESTful fácil de usar que permite utilizar los servicios para un ABM de prendas y sus detalles mediante una base de datos.
+Esta es una API RESTful fácil de usar que permite utilizar los servicios para un ABM, un filtrado y un ordenamiento de prendas y sus detalles mediante una base de datos.
 
 La base de datos cuenta con dos tablas:
 
