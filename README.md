@@ -7,6 +7,7 @@ Esta es una API RESTful fácil de usar que permite utilizar los servicios para u
 La base de datos cuenta con dos tablas:
 
 *tablaprendas*: Se utiliza para agregar prendas.
+
 *detallesprenda*: Se utiliza para obtener más detalles de las prendas de *tablaprendas*. 
 
 Utilizamos los siguiente códigos de respuesta:
