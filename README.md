@@ -79,6 +79,7 @@ detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles/
 ‎------------
 
 Endpoint PUT Para editar: 
+
 tablaprendas: http://localhost/TPE-WEB2-Parte3/api/prendas/id (solo se puede editar "costo" y "rebaja")
 
 tabladetalle: http://localhost/TPE-WEB2-Parte3/api/detalles/id (solo se pued editar "talle" y "stock")
@@ -103,9 +104,9 @@ detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles/54
 
 Endpoint GET para ordenar de manera ascendente o descendente por cualquier campo.
 
-tablaprendas: http://localhost/TPE-WEB2-Parte3/api/prendas?sortby=*ALGO*&order=*ASC O DESC*
+tablaprendas: http://localhost/TPE-WEB2-Parte3/api/prendas?sortby=(ALGO)&order=(ASC O DESC)
 
-detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles?sortby=*ALGO*&order=*ASC O DESC*
+detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles?sortby=(ALGO)&order=(ASC O DESC)
 
     Por ejemplo:
 
@@ -117,9 +118,9 @@ detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles?sortby=*ALGO*&orde
 
 Endpoint GET para filtrar por costo o stock.
 
-tablaprendas: http://localhost/TPE-WEB2-Parte3/api/prendas/filtro/costos?costo=*NUMERO*
+tablaprendas: http://localhost/TPE-WEB2-Parte3/api/prendas/filtro/costos?costo=NUMERO
 
-detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles/filtro/stocks?stock=*NUMERO*
+detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles/filtro/stocks?stock=NUMERO
 
 - El filtro en tablaprendas se hace para saber qué prendas están por debajo del número indicado.
 - El filtro en detallesprenda se hace para saber cuáles stocks están por debajo del número indicado.
