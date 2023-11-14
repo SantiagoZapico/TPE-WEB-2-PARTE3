@@ -122,7 +122,7 @@ tablaprendas: http://localhost/TPE-WEB2-Parte3/api/prendas/filtro/costos?costo=N
 
 detallesprenda: http://localhost/TPE-WEB2-Parte3/api/detalles/filtro/stocks?stock=NUMERO
 
-- El filtro en tablaprendas se hace para saber qué prendas están por debajo del número indicado.
+- El filtro en tablaprendas se hace para saber el costo de qué prendas están por debajo del precio (número) indicado.
 - El filtro en detallesprenda se hace para saber cuáles stocks están por debajo del número indicado.
 
     Por ejemplo:
